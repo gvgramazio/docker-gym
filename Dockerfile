@@ -30,7 +30,7 @@ RUN apt-get install -y \
   ffmpeg \
   xvfb
 
-# MuJoCo has a proprietary dependency we can't set up for you. Follow the 
+# MuJoCo has a proprietary dependency we can't set up for you. Follow the
 # instructions in the `mujoco-py` package for help.
 RUN python3 -m pip install 'gym[all]'
 
