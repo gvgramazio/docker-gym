@@ -1,8 +1,8 @@
 FROM gvgramazio/ubuntu:latest
 
-RUN apt-get update
+RUN sudo apt-get update
 
-RUN apt-get install -y python3 python3-pip
+RUN sudo apt-get install -y python3 python3-pip
 
 RUN python3 -m pip install \
   h5py \
@@ -15,7 +15,7 @@ RUN python3 -m pip install \
   sklearn \
   tensorflow==1.10.1
 
-RUN apt-get install -y \
+RUN sudo apt-get install -y \
   python3-dev \
   zlib1g-dev \
   libjpeg-dev \
