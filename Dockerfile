@@ -13,7 +13,7 @@ RUN python3 -m pip install \
   pandas \
   scipy \
   sklearn \
-  tensorflow
+  tensorflow==1.10.1
 
 RUN apt-get install -y \
   python3-dev \
