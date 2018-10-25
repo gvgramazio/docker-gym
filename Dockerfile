@@ -32,7 +32,8 @@ RUN apt-get install -y \
 
 # MuJoCo has a proprietary dependency we can't set up for you. Follow the
 # instructions in the `mujoco-py` package for help.
-RUN python3 -m pip install 'gym[all]'
+# RUN python3 -m pip install 'gym[all]'
+RUN python3 -m pip install gym
 
 # Expose port for TensorBoard
 EXPOSE 6006
