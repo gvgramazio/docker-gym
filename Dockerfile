@@ -1,4 +1,4 @@
-FROM nvidia/cuda:10.0-base-ubuntu18.04
+FROM gvgramazio/ubuntu:latest
 
 RUN apt-get update
 
