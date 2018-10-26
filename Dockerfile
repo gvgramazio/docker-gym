@@ -1,4 +1,4 @@
-FROM gvgramazio/ubuntu:latest
+FROM giangiangian/eclipse_che_gpu_dockerfile_base:9.0-cudnn7-devel-ubuntu16.04
 
 RUN sudo apt-get update
 
